@@ -23,4 +23,6 @@ Run the container as:
 
     docker run -d -p 8080:8080 olatheander/docker-groovy-sample
 
-Using **Docker Toolbox** the service can be accessed from the host at `http://192.168.99.100:8080/` outputting "Hello World!".
+Using **Docker Toolbox** the service can be accessed from the host at `http://192.168.99.100:8080/` outputting "Hello World!":
+
+![Browser output](./images/browser.png)
