@@ -1,6 +1,11 @@
 # docker-groovy-sample
 A simple Dockerfile + Spring Boot + Groovy "Hello World" sample.
 
+## Build the container image from the Dockerfile
+Assuming the `Dockerfile` is in the current directory, build the image as:
+
+    docker build .
+
 ## Tag the container
 Run `docker images` to list the local container images. Assuming that the ID of the `docker-groovy-sample` container is e.g. `25770faac5e5` the container can be tagged:
 
